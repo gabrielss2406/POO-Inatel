@@ -2,9 +2,9 @@ import java.util.List;
 
 public class Cliente {
     // ATRIBUTOS
-    String nome;
-    long cpf;
-    Computador[] computadores;
+    public String nome;
+    public long cpf;
+    public Computador[] computadores;
 
     // METODOS
     float calculaTotalCompra(){

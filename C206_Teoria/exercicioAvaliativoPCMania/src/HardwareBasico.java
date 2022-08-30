@@ -1,7 +1,7 @@
 public class HardwareBasico {
     // ATRIBUTOS
-    String nome;
-    float capacidade;
+    public String nome;
+    public float capacidade;
 
     // CONSTRUTOR
     HardwareBasico(String nome, float capacidade){

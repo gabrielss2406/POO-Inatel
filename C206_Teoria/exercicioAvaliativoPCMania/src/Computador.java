@@ -2,11 +2,11 @@ import java.lang.ref.Cleaner;
 
 public class Computador {
     // ATRIBUTOS
-    String marca;
-    float preco;
-    MemoriaUSB memoriaUSB;
-    SistemaOperacional sistemaOperacional;
-    HardwareBasico[] hardwareBasicos = new HardwareBasico[3];
+    public String marca;
+    public float preco;
+    public MemoriaUSB memoriaUSB;
+    public SistemaOperacional sistemaOperacional;
+    public HardwareBasico[] hardwareBasicos = new HardwareBasico[3];
 
     // METODOS
     void mostraPCConfigs(){

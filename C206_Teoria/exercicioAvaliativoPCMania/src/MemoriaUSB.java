@@ -1,7 +1,7 @@
 public class MemoriaUSB {
     // ATRIBUTOS
-    String nome;
-    int capacidade;
+    public String nome;
+    public int capacidade;
 
     // CONSTRUTOR
     MemoriaUSB(String nome, int capacidade){
